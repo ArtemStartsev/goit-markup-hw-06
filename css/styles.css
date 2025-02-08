@@ -579,6 +579,7 @@ img {
 }
 
 .modal-close-btn {
+    padding: 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     width: 24px;
@@ -678,6 +679,7 @@ img {
     padding: 8px 16px;
     background-color: transparent;
     resize: none;
+    outline: transparent;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -711,11 +713,11 @@ img {
 }
 
 .policy-item {
-    display: inline-flex;
     width: 16px;
     height: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
@@ -753,4 +755,8 @@ img {
 .btn-submit:hover,
 .btn-submit:focus {
     background-color: #404bbf;
+}
+
+.div-comment{
+    margin-bottom: 16px
 }
