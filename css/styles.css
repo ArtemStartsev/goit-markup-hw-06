@@ -270,7 +270,7 @@ img {
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-top: 8px;
+    
 }
 
 .sociallinks-icon {
@@ -314,6 +314,9 @@ img {
     text-align: center;
 }
 
+.sectiontwo-text{
+    margin-bottom: 8px;
+}
 
 .sectiontwo-list-item {
     background-color: #ffffff;
@@ -517,6 +520,8 @@ img {
 }
 
 .footer-sub-btn {
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
     padding-top: 8px;
     padding-left: 24px;
@@ -532,8 +537,6 @@ img {
     display: flex;
     cursor: pointer;
     border: none;
-    justify-content: center;
-    align-items: center;
 }
 
 .footer-sub-btn:hover,
