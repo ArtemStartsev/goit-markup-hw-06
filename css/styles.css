@@ -28,6 +28,11 @@ p {
     margin: 0;
 }
 
+.button{
+    justify-content: center;
+    align-items: center;
+}
+
 img {
     display: block;
     max-width: 100%;
