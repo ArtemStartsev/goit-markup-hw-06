@@ -28,10 +28,6 @@ p {
     margin: 0;
 }
 
-.button{
-    justify-content: center;
-    align-items: center;
-}
 
 img {
     display: block;
@@ -532,11 +528,12 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: center;
     color: #fff;
     display: flex;
     cursor: pointer;
     border: none;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-sub-btn:hover,
